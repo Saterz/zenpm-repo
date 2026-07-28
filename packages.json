@@ -1,0 +1,32 @@
+[
+    {
+        "id": "kanisync",
+        "name": "Kanisync",
+        "description": "A KOReader plugin to sync progress with AniList",
+        "category": "media",
+        "platforms": [
+            "koreader"
+        ],
+        "incompatible_platforms": [],
+        "featured": false,
+        "repository": "Saterz/kanisync.koplugin",
+        "dependencies": [],
+        "conflicts": [],
+        "readme_url": "https://github.com/Saterz/kanisync.koplugin/blob/main/README.md"
+    },
+    {
+        "id": "betterwifi",
+        "name": "Betterwifi",
+        "description": "A plugin to improve the experience of connecting to wifi in KOReader",
+        "category": "tools",
+        "platforms": [
+            "koreader"
+        ],
+        "incompatible_platforms": [],
+        "featured": false,
+        "repository": "Saterz/betterwifi.koplugin",
+        "dependencies": [],
+        "conflicts": [],
+        "readme_url": "https://github.com/Saterz/betterwifi.koplugin/blob/main/README.md"
+    }
+]

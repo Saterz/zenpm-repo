@@ -3,30 +3,39 @@
   "repo": {
     "id": "saterzs-repo",
     "name": "Saterz's Repository",
-    "url": "https://zenpm-repo.saterz.dev",
-    "icon_url": "assets/repo-icon.svg"
+    "url": "https://zenpm-repo.saterz.dev"
   },
   "packages": [
     {
       "id": "kanisync",
       "name": "Kanisync",
-      "version": "1.0.0-dev.1",
-      "author": "Saterz",
+      "description": "A KOReader plugin to sync progress with AniList",
       "category": "media",
-      "platforms": ["koreader"],
+      "platforms": [
+        "koreader"
+      ],
       "incompatible_platforms": [],
       "featured": false,
-      "published_at": "2026-07-27T02:50:20.685Z",
-      "source": "https://github.com/Saterz/kanisync.koplugin",
-      "source_asset": "kanisync.koplugin.zip",
-      "source_type": "release",
-      "prerelease_version": "1.0.0-dev.1",
-      "prerelease_published_at": "2026-07-27T02:50:20.685Z",
-      "stars": "1",
-      "readme_url": "https://github.com/Saterz/kanisync.koplugin/blob/main/README.md",
       "dependencies": [],
       "conflicts": [],
-      "size": "20000"
+      "readme_url": "https://github.com/Saterz/kanisync.koplugin/blob/main/README.md",
+      "source_type": "release",
+      "author": "Saterz",
+      "source": "https://github.com/Saterz/kanisync.koplugin",
+      "source_asset": "kanisync.koplugin.zip",
+      "stars": 1,
+      "assets": [
+        {
+          "arch": "any",
+          "asset": "kanisync.koplugin.zip",
+          "url": "https://github.com/Saterz/kanisync.koplugin/releases/download/v1.0.0-dev.1/kanisync.koplugin.zip",
+          "size": "20448"
+        }
+      ],
+      "size": "20448",
+      "version": "1.0.0-dev.1",
+      "published_at": "2026-07-21T00:11:06Z",
+      "prerelease_version": "v1.0.0-dev.1"
     }
   ]
 }

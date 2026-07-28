@@ -1,0 +1,32 @@
+name: Update Manifest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: python update-manifest.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          add-paths: |
+            manifest.json
+            packages/
+          branch: update-manifest
+          commit-message: Update manifest
+          title: Update manifest
+          body: Automated manifest update.
