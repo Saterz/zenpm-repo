@@ -165,6 +165,7 @@ def normalize_version(name: str) -> str:
 
 def main():
     manifest: Manifest = copy.deepcopy(MINIMAL_MANIFEST)
+    manifest_destination = "manifest.json"
 
     with open("packages.json", "r", encoding="utf-8") as packages:
         package_configs: list[dict[str, Any]] = json.load(packages)
@@ -228,14 +229,12 @@ def main():
                 f"{repository} does not contain {expected_asset}"
             )
 
-        tag_name: str = latest_release["tag_name"]
-        version = normalize_version(tag_name)
+        version = normalize_version(latest_release["tag_name"])
 
         prerelease_version = ""
 
         if prereleases:
-            prerelease_tag: str = prereleases[0]["tag_name"]
-            prerelease_version = normalize_version(prerelease_tag)
+            prerelease_version = normalize_version(prereleases[0]["tag_name"])
 
         asset_name: str = release_asset["name"]
         asset_url: str = release_asset["browser_download_url"]
@@ -263,12 +262,9 @@ def main():
             "dependencies": package.get("dependencies", []),
             "conflicts": package.get("conflicts", []),
             # GitHub repository details
-            "author": package.get(
-                "author",
-                repository_details["owner"]["login"],
-            ),
+            "author": repository_details["owner"]["login"],
             "source": repository_details["html_url"],
-            "stars": str(repository_details.get("stargazers_count", 0)),
+            "stars": str(repository_details["stargazers_count"]),
             # Current release details
             "version": version,
             "published_at": (latest_release.get("published_at") or ""),
@@ -365,6 +361,19 @@ def main():
                 ensure_ascii=False,
             )
             file.write("\n")
+
+    with open(
+        manifest_destination,
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            manifest,
+            file,
+            indent=2,
+            ensure_ascii=False,
+        )
+        file.write("\n")
 
 
 main()

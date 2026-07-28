@@ -18,12 +18,15 @@
       "featured": false,
       "dependencies": [],
       "conflicts": [],
-      "readme_url": "https://github.com/Saterz/kanisync.koplugin/blob/main/README.md",
-      "source_type": "release",
       "author": "Saterz",
       "source": "https://github.com/Saterz/kanisync.koplugin",
+      "stars": "1",
+      "version": "1.0.0-dev.1",
+      "published_at": "2026-07-21T00:11:06Z",
+      "prerelease_version": "1.0.0-dev.1",
+      "source_type": "release",
       "source_asset": "kanisync.koplugin.zip",
-      "stars": 1,
+      "size": "20448",
       "assets": [
         {
           "arch": "any",
@@ -32,10 +35,8 @@
           "size": "20448"
         }
       ],
-      "size": "20448",
-      "version": "1.0.0-dev.1",
-      "published_at": "2026-07-21T00:11:06Z",
-      "prerelease_version": "v1.0.0-dev.1"
+      "versions_url": "packages/koreader/kanisync.koplugin/versions.json",
+      "readme_url": "https://github.com/Saterz/kanisync.koplugin/blob/main/README.md"
     }
   ]
 }
