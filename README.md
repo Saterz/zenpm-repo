@@ -1,6 +1,6 @@
 # Saterz's Repository
 
-A ZenPM repository for KOReader. [ZenPM](https://github.com/xZenLabs/zen-pm) is a package manager available as a KOReader plugin.
+A repository for [ZenPM](https://github.com/xZenLabs/zen-pm), a package manager for KOReader, with all my plugins.
 
 ## Install
 
@@ -13,6 +13,6 @@ https://zenpm-repo.saterz.dev
 Or add and refresh it from the ZenPM command line:
 
 ```sh
-zenpm repo add saterzs-repo https://zenpm-repo.saterz.dev
+zenpm repo add saterz-repo https://zenpm-repo.saterz.dev
 zenpm repo refresh
 ```
