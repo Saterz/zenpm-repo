@@ -21,18 +21,18 @@
       "author": "Saterz",
       "source": "https://github.com/Saterz/kanisync.koplugin",
       "stars": "1",
-      "version": "1.0.0-dev.7",
-      "published_at": "2026-07-30T21:20:48Z",
-      "prerelease_version": "1.0.0-dev.7",
+      "version": "1.0.0-dev.8",
+      "published_at": "2026-07-30T22:51:44Z",
+      "prerelease_version": "1.0.0-dev.8",
       "source_type": "release",
       "source_asset": "kanisync.koplugin.zip",
-      "size": "23112",
+      "size": "23449",
       "assets": [
         {
           "arch": "any",
           "asset": "kanisync.koplugin.zip",
-          "url": "https://github.com/Saterz/kanisync.koplugin/releases/download/v1.0.0-dev.7/kanisync.koplugin.zip",
-          "size": "23112"
+          "url": "https://github.com/Saterz/kanisync.koplugin/releases/download/v1.0.0-dev.8/kanisync.koplugin.zip",
+          "size": "23449"
         }
       ],
       "versions_url": "packages/koreader/kanisync.koplugin/versions.json",
