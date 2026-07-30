@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "tag_name": "v1.0.0-dev.7",
+      "name": "v1.0.0-dev.7",
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "kanisync.koplugin.zip",
+          "url": "https://github.com/Saterz/kanisync.koplugin/releases/download/v1.0.0-dev.7/kanisync.koplugin.zip",
+          "size": 23112,
+          "digest": "sha256:90b0e35d1436c6ca28cf512daaceb0011a7b9ec66154db3372652b292c87855a"
+        }
+      ]
+    },
+    {
       "tag_name": "v1.0.0-dev.6",
       "name": "v1.0.0-dev.6",
       "prerelease": true,
