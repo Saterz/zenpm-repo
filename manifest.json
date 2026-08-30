@@ -37,6 +37,38 @@
       ],
       "versions_url": "packages/koreader/kanisync.koplugin/versions.json",
       "readme_url": "https://raw.githubusercontent.com/Saterz/kanisync.koplugin/refs/heads/main/README.md"
+    },
+    {
+      "id": "diffs",
+      "name": "Diffs",
+      "description": "A KOReader plugin for viewing the changes between two revisions of a public GitHub repository.",
+      "category": "tools",
+      "platforms": [
+        "koreader"
+      ],
+      "incompatible_platforms": [],
+      "featured": false,
+      "dependencies": [],
+      "conflicts": [],
+      "author": "Saterz",
+      "source": "https://github.com/Saterz/diffs.koplugin",
+      "stars": "0",
+      "version": "1.0.0",
+      "published_at": "2026-08-30T18:18:54Z",
+      "prerelease_version": "",
+      "source_type": "release",
+      "source_asset": "diffs.koplugin.zip",
+      "size": "23442",
+      "assets": [
+        {
+          "arch": "any",
+          "asset": "diffs.koplugin.zip",
+          "url": "https://github.com/Saterz/diffs.koplugin/releases/download/v1.0.0/diffs.koplugin.zip",
+          "size": "23442"
+        }
+      ],
+      "versions_url": "packages/koreader/diffs.koplugin/versions.json",
+      "readme_url": "https://raw.githubusercontent.com/Saterz/diffs.koplugin/refs/heads/main/README.md"
     }
   ]
 }
