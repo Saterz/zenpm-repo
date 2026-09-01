@@ -1,6 +1,19 @@
 {
   "releases": [
     {
+      "tag_name": "v1.1.0-beta.2",
+      "name": "v1.1.0-beta.2",
+      "prerelease": true,
+      "assets": [
+        {
+          "name": "diffs.koplugin.zip",
+          "url": "https://github.com/Saterz/diffs.koplugin/releases/download/v1.1.0-beta.2/diffs.koplugin.zip",
+          "size": 27648,
+          "digest": "sha256:e3f4701701cef6cf1b44a262a25bbcf7d90588e599840b02937b7a07325ae2f8"
+        }
+      ]
+    },
+    {
       "tag_name": "v1.1.0-beta.1",
       "name": "v1.1.0-beta.1",
       "prerelease": true,
